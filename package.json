@@ -1,0 +1,40 @@
+{
+  "name": "node-coffee-angular-sql",
+  "version": "1.0.0",
+  "description": "A template for a web app written in node with coffee script using AngularJS and SQL",
+  "main": "server.coffee",
+  "scripts": {
+    "start": "nodemon server.coffee",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "James Mona",
+  "license": "ISC",
+  "dependencies": {
+    "angular-ui-router": "^0.4.2",
+    "bower": "^1.8.0",
+    "connect-session-sequelize": "^4.1.0",
+    "dotenv": "^4.0.0",
+    "epilogue": "^0.7.1",
+    "express": "^4.15.2",
+    "express-session": "^1.15.2",
+    "fs": "0.0.1-security",
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-coffee": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-ng-constant": "^2.0.1",
+    "grunt-notify": "^0.4.5",
+    "load-grunt-tasks": "^3.5.2",
+    "lodash": "^4.17.4",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "path": "^0.12.7",
+    "pg": "^6.1.5",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^3.30.4"
+  },
+  "devDependencies": {
+    "grunt-notify": "^0.4.5"
+  }
+}

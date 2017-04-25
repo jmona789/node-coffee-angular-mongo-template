@@ -1,0 +1,21 @@
+{
+  "name": "node-coffee-angular-sql",
+  "description": "A template for a web app written in node with coffee script using AngularJS and SQL",
+  "main": "server.coffee",
+  "authors": [
+    "James Mona"
+  ],
+  "license": "ISC",
+  "homepage": "N/A",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.4",
+    "materialize": "^0.98.1"
+  }
+}
