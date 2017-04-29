@@ -3,13 +3,13 @@ express = require 'express'
 # bodyParser = require 'body-parser'
 # pg = require 'pg'
 session = require 'express-session'
-SequelizeStore = require('connect-session-sequelize')(session.Store)
+# SequelizeStore = require('connect-session-sequelize')(session.Store)
 # timeout = require 'connect-timeout'
 
 module.exports = (app) ->
     # app.use compression()
     # app.use timeout '100s'
-    # app.use bodyParser
+    app.use bodyParser
     #     limit: '5mb'
     # app.use bodyParser.urlencoded
     #     extended: true
